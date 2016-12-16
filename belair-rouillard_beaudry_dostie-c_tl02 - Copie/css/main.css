@@ -1,0 +1,635 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    height: auto;
+    padding: 0;
+    background-color: #39d2d8;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li label {
+    display: list-item;
+}
+
+.row {
+    margin: 0;
+}
+
+.bottomBtnDisplay {
+    background-color: #1f1f1f;
+    border: none;
+    font-size: 2em;
+    height: 70px;
+}
+
+.boxclose {
+    position: absolute;
+    right: 2.5%;
+    z-index: 10;
+    font-size: 4em;
+    height: 15px;
+    line-height: 0px;
+    opacity: 0.5;
+}
+
+.boxclose:hover {
+    opacity: 0.7;
+}
+
+.boxclose:active {
+    height: 30px;
+}
+
+.ajouter {
+    color: black;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+    color: #fff;
+    font-size: 4em;
+}
+
+#gv {
+    max-width: 438px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+h2 {
+    text-align: left;
+    margin: 0;
+    padding-left: 50px;
+    line-height: 100px;
+}
+
+span {
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+
+p {
+    font-size: 1.5em;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.fa-undo {
+    margin-top: -50px;
+    opacity: 0.6;
+}
+
+.fa-undo:hover {
+    opacity: 0.6;
+}
+
+.btn-primary {
+    text-transform: capitalize;
+    width: 300px;
+    background-color: none;
+}
+
+#add {
+    font-size: 1em;
+    width: 150px;
+}
+
+#connexion {
+    margin-top: 20px;
+}
+
+#inscription {
+    margin-top: 10px;
+}
+
+.checkboxes {
+    margin-bottom: 115px;
+}
+
+.checkboxes ul {
+    list-style-type: none;
+}
+
+li {
+    height: 100px;
+}
+
+a span {
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 1.3em;
+}
+
+#main {
+    bottom: 0;
+}
+
+.checkboxes li {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.back {
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
+
+#main li:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1f1f1f;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#valise {
+    margin: 30px 0;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+#sante {
+    background-color: #EE325B;
+}
+
+#finances {
+    background-color: #ADD255;
+}
+
+#douanes {
+    background-color: #0fa38d;
+}
+
+#sac {
+    background-color: #823a82;
+}
+
+#bagage {
+    background-color: #FFD025
+}
+
+#span-main {
+    font-size: 1.5em;
+}
+
+.checkbox {
+    float: left;
+    margin-left: 50px;
+}
+
+.header {
+    height: auto;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+#head-phar {
+    background-color: #BF2548;
+}
+
+#head-fin {
+    background-color: #82a236;
+}
+
+#head-douanes {
+    background-color: #447764;
+}
+
+#head-sac {
+    background-color: #664883;
+}
+
+#head-bag {
+    background-color: #e2bf3e;
+}
+
+#head-conn,
+#head-acc {
+    background-color: #03acb2;
+}
+
+.navbar-fixed-bottom {
+    margin-top: 30px;
+}
+
+.save {
+    bottom: 0;
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+ul {
+    padding: 0!important;
+    margin-top: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: none;
+    color: #fff;
+}
+
+label {
+    margin-top: 10px;
+    position: relative;
+    padding-left: 50px;
+    font-size: 18px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+#form-connexion label {
+    padding-left: 0;
+    font-size: 2em;
+    margin: 10px;
+}
+
+#form-connexion input {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #03acb2;
+    color: #fff;
+    border: none;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+#connex {
+    margin-top: 50px;
+}
+
+label:before,
+label:after {
+    /* You *have* imported Fontawesome in your html doc, right? */
+    border-radius: 50%;
+    font-family: FontAwesome;
+    font-size: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1px;
+}
+
+
+/*unchecked*/
+
+.checkbox+label:before {
+    left: 20px;
+    content: "\f10c";
+    color: #fff;
+}
+
+.checkbox+label:after {
+    left: 20px;
+    content: "\f00c";
+    margin: -3px 0 0;
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    /* CSS3 transitions for animated effect for browsers that support it */
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="checkbox"]:checked + label:after {
+    max-width: 40px;
+    opacity: 1;
+    color: #fff;
+}
+
+input[type="radio"]:checked + label:after {
+    max-width: 40px;
+    opacity: 1;
+    color: #000;
+}
+
+input[type="radio"]:checked + label:before {
+    opacity: 0;
+}
+
+input,
+ul {
+    text-align: left;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.uncheck {
+    color: #fff;
+}
+
+
+/*------------------IPHONE 5---------------------*/
+
+@media screen and (max-width: 374px) {
+    .fa-undo {
+        font-size: 20px !important;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    #second-title {
+        height: auto;
+        width: 300px;
+    }
+    .btn-primary {
+        font-size: 1em;
+        background-color: transparent;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        width: 200px;
+        padding: 5px;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+        color: #8d8d8d;
+        background-color: transparent;
+        border: 3px solid #8d8d8d;
+    }
+    .btn-primary:active,
+    .btn-primary.active {
+        background-color: none;
+        border-color: #fff;
+    }
+    #valise {
+        margin: 20px 0;
+        width: 180px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .header {
+        height: auto;
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+    p {
+        font-size: 1em;
+        color: #ffffff;
+        opacity: 0.7;
+    }
+    span {
+        position: absolute;
+        color: #236c6d;
+        top: 10px;
+        font-size: 0.8em;
+        opacity: 0.8;
+    }
+    #user {
+        width: 100px;
+        height: auto;
+    }
+    label {
+        position: relative;
+        padding-left: 50px;
+        padding-right: 10px;
+        font-size: 18px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+    form {
+        margin-top: 50px;
+    }
+    #form-connexion label {
+        padding-left: 0;
+        font-size: 1.5em;
+        margin: 10px;
+    }
+    #form-connexion input {
+        height: 40px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: #03acb2;
+        color: #fff;
+        border: none;
+        padding-left: 10px;
+    }
+    #connex {
+        margin-top: 10px;
+    }
+    #main h2 {
+        font-size: 1.5em;
+        text-align: left;
+        margin: 0;
+        padding-left: 50px;
+        line-height: 60px;
+    }
+    .back {
+        position: absolute;
+        right: 0;
+        background-color: transparent;
+        border: none;
+        top: 0;
+    }
+    li {
+        height: 65px;
+    }
+}
+
+
+/*------------------IPHONE 6---------------------*/
+
+@media screen and (min-width: 375px) and (max-width:667px) {
+    #valise {
+        margin: 40px 0;
+        width: 200px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .back {
+        position: absolute;
+        right: 0px;
+        background-color: transparent;
+        border: none;
+        top: 0px;
+    }
+    span {
+        position: absolute;
+        color: #236c6d;
+        top: 10px;
+        font-size: 0.8em;
+        opacity: 0.8;
+    }
+    .btn-primary {
+        font-size: 1.5em;
+        background-color: transparent;
+        border: 3px solid #fff;
+        border-radius: 5px;
+        width: 300px;
+        padding: 5px;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+        color: #8d8d8d;
+        background-color: transparent;
+        border: 3px solid #8d8d8d;
+    }
+    .btn-primary:active,
+    .btn-primary.active {
+        background-color: none;
+        border-color: #fff;
+    }
+    label {
+        position: relative;
+        padding-left: 50px;
+        padding-right: 10px;
+        font-size: 18px;
+        line-height: 20px;
+        cursor: pointer;
+    }
+    form {
+        margin-top: 60px;
+    }
+    #form-connexion label {
+        padding-left: 0;
+        font-size: 2em;
+        margin: 10px;
+    }
+    #form-connexion input {
+        height: 40px;
+        width: 300px;
+        border-radius: 5px;
+        background-color: #03acb2;
+        color: #fff;
+        border: none;
+        padding-left: 10px;
+    }
+    #connex {
+        margin-top: 30px;
+    }
+    li {
+        height: 80px;
+    }
+    #main h2 {
+        font-size: 2em;
+        text-align: left;
+        margin: 0;
+        padding-left: 50px;
+        line-height: 80px;
+    }
+}
+
+
+/*------------------IPAD ET PLUS---------------------*/
+
+@media screen and (min-width: 667px) {
+    #user {
+        width: 200px;
+        height: auto;
+    }
+    #valise {
+        margin: 100px 0;
+        margin-bottom: 80px;
+        width: 250px;
+        height: auto;
+    }
+    span {
+        position: absolute;
+        color: #236c6d;
+        top: 10px;
+        font-size: 0.8em;
+        opacity: 0.8;
+    }
+    .btn-primary {
+        font-size: 1.5em;
+        background-color: transparent;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        width: 300px;
+        padding: 5px;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+        color: #8d8d8d;
+        background-color: transparent;
+        border: 5px solid #8d8d8d;
+    }
+    .btn-primary:active,
+    .btn-primary.active {
+        background-color: none;
+        border-color: #fff;
+    }
+    form {
+        margin-top: 100px;
+    }
+    #form-connexion label {
+        padding-left: 0;
+        font-size: 2em;
+        margin: 10px;
+    }
+    #form-connexion input {
+        height: 50px;
+        width: 300px;
+        border-radius: 5px;
+        background-color: #03acb2;
+        color: #fff;
+        border: none;
+        padding-left: 10px;
+    }
+    #connex {
+        margin-top: 30px;
+    }
+    .checkboxes label {
+        font-size: 2em;
+    }
+}
